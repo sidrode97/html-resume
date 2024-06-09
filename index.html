@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <h1>Siddharth Rao Deb</h1>
+    <img src="./assets/images/profile_pic.PNG" height="80px"/>
+    <p>
+        I love sports science and music.
+    </p>
+    <h2>Education </h2>
+    <hr />
+    <p>
+        <b>Rochester Institute of Technology</b>  Rochester, NY <br />
+        <i>Master of Science in Computer Science (GPA: 3.56 / 4.00)</i>  08/2021 - 12/2023<br />
+        <i>Relevant Coursework:</i> Advanced OOP Concepts (Java), Foundations of Algorithms (Python), Foundations of AI, Introduction to Big Data, Database System Implementation, Introduction to ML, Neural Nets and ML..
+
+    </p>
+    <p>
+        <b>Manipal Institute of Technology</b> Karnataka, India <br />
+        <i>Bachelor of Technology  in Electrical Engineering</i> 08/2016 - 05/2020
+
+    </p>
+    <h2>Projects</h2>
+    <hr />
+    <p>
+        <b>Capstone: Speech to Speech Translation (S2ST)</b> | <i>Python, BERT, PyTorch, LLM</i>       08/2023 - 12/2023
+        <ul>
+            <li>Developed a cascaded S2ST system for English to Hindi translation, using pre-trained checkpoints of Wav2vec 2.0 (ASR), MBART-50 (MT), and VITS (TTS) from Hugging-Face.</li>
+            <li>Enhanced S2ST pipeline robustness using an LLM to identify, then correct the ASR transcript’s syntax and semantics, reducing WER by 50% (ChatGPT) compared to the ASR-only baseline.</li>
+            <li>Errors were flagged by contrasting confidence scores of the ASR and LLM for the tokenised transcript, with flagged errors masked and rectified using contextual predictions from the LLM.
+            </li>
+            <li>Compared the performance of 3 LLMs for this task BERT-small (11.46% WER), BERT-large (6.43% WER), and ChatGPT (0.67% WER) with an ASR-only baseline (1.72% WER).
+            </li>
+    </p>
+    <p>
+        </ul>
+        <b>Diabetic Retinopathy Detection System </b> | <i> Python, PyTorch, CNN</i> 01/2023 - 05/2023
+        <ul>
+            <li>Developed a Convolutional Neural Network (CNN) model using PyTorch and PyTorch Lightning for diabetic retinopathy detection, leveraging the Inception V3 architecture.</li>
+            <li>Used an Imbalanced Data Sampler for random oversampling to mitigate data bias.</li>
+            <li>Implemented extensive image preprocessing techniques, including rescaling, color normalization, and contrast adjustment, to standardize and enhance image quality.
+            </li>
+            <li>Conducted rigorous k-fold cross-validation and evaluated model performance using metrics such as ROC curve, AUC, accuracy, and classification report.</li>
+        </ul>
+    </p>
+    <p>
+        <b>Anime Watch-list Database System</b> | <i>PostgreSQL, MongoDB</i> 01/2022 - 05/2022
+        <ul>
+            <li>Used the Anime Watch-list data-set from Kaggle to gain deep insights into the users such as the top 10 most re-watched anime for female users by region, top unreleased anime by most users planning to watch it.
+            </li>
+            <li>These queries can be used for targeted advertising for customers.</li>
+
+        </ul>
+
+    </p>
+    <h2>Work Experience</h2>
+    <hr />
+    <p>
+        <b>Rochester Institute of Technology</b>  08/2022 - 04/2023 <br />
+        <i>Graduate Assistant, Foundations of Artificial Intelligence</i> Rochester, NY
+        <ul>
+            <li>Evaluated homework assignments and provided feedback for a class of 40 graduate students.</li>
+        </ul>
+        
+        
+    </p>
+    <p>
+        <b>SenSen Networks</b>  10/2020 - 08/2021 <br />
+        <i>Software Engineer</i> Hyderabad, India
+        <ul>
+            <li>Assisted in the testing of the key data-fusion software platform which increased the efficiency of traffic data analysis by 30%.</li>
+            <li>Designed the layout of a GUI in collaboration with the Brisbane City Police tailored to their needs.</li>
+            <li>Conducted sessions to impart technical knowledge to new hires, facilitating the on-boarding process.</li>
+        </ul>
+    </p>
+    <p>
+        <b>Indian Institute of Technology Bombay, Dept. of Electrical Engineering </b> 01/2020 - 07/2020 <br />
+        <i>AJIT-64 Microprocessor, Research Internship</i>Mumbai, India
+        <ul>
+            <li>Developed critical 64-bit libraries, including the vector and string libraries, to facilitate the functionality of the microprocessor using C.
+            </li>
+            <li>Created a hybrid 64/8-bit string library that was 3 to 7 times more efficient than conventional 8-bit libraries, for large strings.</li>
+            <li>The microprocessor’s superior performance, cost-effective production at $1.25, and broad applicability are expected to make an impact on the Indian market.</li>
+        </ul>
+
+        
+    </p>
+    <h2>Technical Skills</h2>
+    <hr />
+    <p>
+        <ul>
+            <li> <b>Programming Languages:</b> Python, Java, C++, PostgreSQL, MySQL, H2, Redis, MongoDB, Assembly Language, MATLAB
+            </li>
+            <li> <b>Database Concepts:</b> DBMS, SQL, NoSQL
+            </li>
+            <li> <b>O/S and Networking Concepts:</b> Linux/Unix, TCP/IP, UDP, HTTP/S
+            </li>
+            <li> <b>ML Concepts:</b> Transformers, LLMs, GANs, CNNs, K-Means clustering, Bayes Networks.
+            </li>
+        </ul>
+    </p>
+    <hr />
+    <a href="./public/contact.html">Contact</a>
+    <a href="./public/about.html">About</a>
+</body>
+<footer>
+    <p>© Siddharth Rao Deb. All rights reserved.</p>
+</footer>
+</html>
